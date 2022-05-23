@@ -13,7 +13,11 @@
 	    			'singular_name' => __('HTML', 'websepeed-html-domain')
 	    		),
 	    		'public' => true,
-	    		'publicly_queryable' => false,
+	    		'exclude_from_search' => true,
+				'show_in_admin_bar'   => false,
+				'show_in_nav_menus'   => false,
+				'publicly_queryable'  => false,
+				'query_var'           => false,
 	    		'menu_icon' => 'dashicons-html',
 	    		'supports' => array(
 	    			'title'
