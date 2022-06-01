@@ -10,8 +10,8 @@ Author URI: https://www.web.dk.dk
 */
 
 // Files
-if( function_exists('acf_add_local_field_group') ):
+if( class_exists('ACF') ) {
 	require_once ('files/posttype.php');
 	require_once ('files/acf.php');
 	require_once ('files/shortcode.php');
-endif;
+}

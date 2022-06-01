@@ -18,6 +18,7 @@
 				'show_in_nav_menus'   => false,
 				'publicly_queryable'  => false,
 				'query_var'           => false,
+				'menu_position'		=> 100,
 	    		'menu_icon' => 'dashicons-html',
 	    		'supports' => array(
 	    			'title'
